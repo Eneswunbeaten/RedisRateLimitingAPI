@@ -1,0 +1,6 @@
+@RedisRateLimitingAPI_HostAddress = http://localhost:5082
+
+GET {{RedisRateLimitingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
