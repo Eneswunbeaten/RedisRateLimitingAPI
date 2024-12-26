@@ -21,6 +21,7 @@ This is a .NET 6 Web API demonstrating rate limiting using Redis. It prevents cl
    ```
    docker run --rm -p 6379:6379 --name rediscontainer -d redis
    ```
+   We need to connect to redis cli for testing, for this we enter the following command. Here '0c8' means the first three characters of the CONTAINER ID of redis.
    ```
    docker exec -it 0c8 sh
    ```
