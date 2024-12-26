@@ -19,7 +19,6 @@ builder.Services.AddSingleton<RateLimiterService>(serviceProvider =>
     TimeSpan timeWindow = TimeSpan.FromSeconds(10);
     return new RateLimiterService(redis, maxReq, timeWindow);
 }); 
-// builder.Services.AddSingleton<RateLimitingMiddleware>();
 
 var app = builder.Build();
 app.UseMiddleware<RateLimitingMiddleware>();
