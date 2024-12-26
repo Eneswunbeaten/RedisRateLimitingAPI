@@ -1,6 +1,6 @@
 # Redis Rate Limiting API
 
-This is a .NET 6 Web API demonstrating rate limiting using Redis. It prevents clients from exceeding a certain number of requests within a specific time window.
+This is a .NET 8 Web API demonstrating rate limiting using Redis. It prevents clients from exceeding a certain number of requests within a specific time window.
 
 ## Prerequisites
 - .NET 8
